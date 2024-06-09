@@ -19,8 +19,8 @@ export const TextGenerateEffect = ({
         opacity: 1,
       },
       {
-        duration: 3,
-        delay: stagger(0.2),
+        duration: 2,
+        delay: stagger(0.3),
       }
     );
   }, [scope.current]);
@@ -32,7 +32,7 @@ export const TextGenerateEffect = ({
           return (
             <motion.span
               key={word + idx}
-              className={`${idx>2 ?"text-purple": "dark:text-white text-black"} opacity-0`}
+              className={`${idx>3 ?"text-purple": "dark:text-white text-black"} opacity-0`}
             >
               {word}{" "}
             </motion.span>
