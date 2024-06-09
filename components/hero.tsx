@@ -46,8 +46,8 @@ const Hero = () => {
           </p> */}
 
             <TextGenerateEffect
-              className="text-center text-[40px] md:text-5xl lg:text-8xl"
-              words="Crafting Tomorrow's Solutions in Lines of Code"
+              className="text-center text-[40px] md:text-6xl lg:text-[90px]"
+              words="Transforming Ideas into Reality Through Code"
             />
 
             {/* <TextGenerateEffect
@@ -55,9 +55,9 @@ const Hero = () => {
             words=" Hi I&apos;m Shoaib Alam"
           /> */}
 
-            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3   md:gap-[500px] ">
+            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3   gap-[900px]  ">
 
-              <div className="flex justify-center items-center   max-md:w-80 ">
+              <div className="flex justify-center items-center   max-md:w-80  ">
                 <Image
                   src="/bird.jpg"
                   width={400}
@@ -68,8 +68,8 @@ const Hero = () => {
 
 
 
-              <div className="md:mt-28  max-md:mt-10 max-md:flex max-md:justify-center max-md:items-center">
-                <p className="lg:text-5xl md:text-3xl  sm:text-xl font-semibold ">
+              <div className="md:mt-12  max-md:mt-10 max-md:flex max-md:justify-center max-md:items-center">
+                <p className="lg:text-5xl md:text-3xl  sm:text-xl  font-medium ">
                   Hi I&apos;m <span className="text-purple"> Shoaib Alam</span>
                 </p>
                 <a
