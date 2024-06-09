@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-32 max-md:pt-20">
+    <div className="pb-20 pt-32 max-md:pt-20 ">
       <div>
         <div>
           <Spotlight
@@ -55,14 +55,15 @@ const Hero = () => {
             words=" Hi I&apos;m Shoaib Alam"
           /> */}
 
-            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3   gap-[900px]  ">
+            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3  md:gap-x-[40vw]  sm:gap-[30vw]  ">
 
-              <div className="flex justify-center items-center   max-md:w-80  ">
+              <div className="flex justify-center items-center  max-md:w-72 max-md:ml-3  md:w-96  ">
                 <Image
                   src="/bird.jpg"
                   width={400}
                   height={400}
                   alt="pitcure of editor"
+                 
                 />
               </div>
 
