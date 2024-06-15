@@ -3,6 +3,7 @@ import MagicButton from "./ui/MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenrateEffect";
 import Image from "next/image";
+import{  TextRevealCard}from "@/components/ui/TextRevel"
 
 
 const Hero = () => {
@@ -46,7 +47,7 @@ const Hero = () => {
           </p> */}
 
             <TextGenerateEffect
-              className="text-center text-[40px] md:text-6xl lg:text-[90px]"
+              className="text-center text-[40px] md:text-6xl lg:text-[90px] max-sm:ml-24  max-sm:mr-24  flex "
               words="Transforming Ideas into Reality Through Code"
             />
 
@@ -55,9 +56,10 @@ const Hero = () => {
             words=" Hi I&apos;m Shoaib Alam"
           /> */}
 
-            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3  md:gap-x-[40vw]  sm:gap-[30vw]  ">
 
-              <div className="flex justify-center items-center  max-md:w-72 max-md:ml-3  md:w-96  ">
+            <div className="lg:flex-row-reverse justify-center  items-start mt-12  max-md:items-center  lg:flex max-md:mt-3  md:gap-x-[40vw]  sm:gap-[30vw]  lg:gap-[35vw] ">
+
+              <div className="flex justify-center items-center  max-md:w-72   md:w-96   lg:grayscale hover:grayscale-0 ">
                 <Image
                   src="/bird.jpg"
                   width={400}
@@ -69,10 +71,16 @@ const Hero = () => {
 
 
 
-              <div className="md:mt-12  max-md:mt-10 max-md:flex max-md:justify-center max-md:items-center">
+              <div className="md:mt-12 max-md:mt-10 max-md:flex-col max-md:flex max-md:justify-center max-md:items-center lg:ml-4">
                 <p className="lg:text-5xl md:text-3xl  sm:text-xl  font-medium ">
                   Hi I&apos;m <span className="text-purple"> Shoaib Alam</span>
                 </p>
+
+                {/* this is for hover effect  */}
+                {/* <TextRevealCard className="w-full"
+        text="You know the business power"
+        revealText="I know the chemistry "
+      /> */}
                 <a
                   href="#about">
                   <MagicButton
